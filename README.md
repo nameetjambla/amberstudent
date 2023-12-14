@@ -23,4 +23,6 @@ Before you begin, make sure you have the following installed on your machine:
    npm install -g cypress
 
 Running Cypress Tests
-Command npx cypress open
+
+```bash
+npx cypress open
