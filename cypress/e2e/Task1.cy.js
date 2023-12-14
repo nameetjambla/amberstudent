@@ -21,7 +21,7 @@ describe('Filter Tests', () => {
             cy.wait(3000)
 
         })
-        //const linkSelector = 'a[href="/places/east-central-house-london-1710100016395"]';
+        
         cy.get('div:nth-of-type(2) > .amber-n8y7xk > .amber-zih4zw > .amber-a6075h > .amber-1u1u4a5 > .amber-Group-root.amber-qm34fq > .amber-1ynp4p5 > .amber-5elmvi.amber-Text-root.amber-Title-root').invoke('attr', 'href').then((href) => {
             // Visit the link in the same tab
             cy.visit('https://amberstudent.com/places/student-living-heights-london-1710109418732');
